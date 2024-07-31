@@ -6,7 +6,7 @@ import download_icon from '../assets/download-icon.png';
 
 function Header() {
   return (
-    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 px-4 md:px-0'>
+    <div id="home" className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 px-4 md:px-0'>
       <img className='rounded-full w-32 md:w-48' src={profile_img} alt="Profile" />
       <h3 className='text-xl md:text-2xl flex items-center'>Hi, I'm Muhammad Mujtaba <img className='w-6 ml-2' src={hand_icon} alt="Wave" /></h3>
       <h1 className='text-2xl md:text-4xl lg:text-[40px]'>Frontend Web Developer based in Pakistan.</h1>
