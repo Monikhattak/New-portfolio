@@ -1,7 +1,9 @@
 import React from 'react';
 import web_icon from '../assets/web-icon.png';
 import right_arrow from "../assets/right-arrow.png";
-
+import Mobile_icon from '../assets/mobile-icon.png'
+import ui_icon from '../assets/ui-icon.png'
+import Graphic_icon from '../assets/graphics-icon.png'
 function Services() {
   return (
     <div id="services" className="w-full px-[12%] py-10 scroll-mt-20">
@@ -14,6 +16,39 @@ function Services() {
         <div className="border border-gray-500 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500">
           <img className="w-10 mb-4" src={web_icon} alt="Web Design Icon" />
           <h3 className="text-lg my-4 text-gray-700">Web Design</h3>
+          <p className="text-sm text-gray-600 leading-5">
+            Web development is the process of building programming... 
+            <a href="#" className="flex items-center gap-2 sm:mt-5 text-blue-500 hover:text-blue-700 duration-300">
+              Read more
+              <img className="w-4" src={right_arrow} alt="Right Arrow Icon" />
+            </a>
+          </p>
+        </div>
+        <div className="border border-gray-500 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500">
+          <img className="w-10 mb-4" src={Mobile_icon} alt="Web Design Icon" />
+          <h3 className="text-lg my-4 text-gray-700">Mobile App</h3>
+          <p className="text-sm text-gray-600 leading-5">
+            Web development is the process of building programming... 
+            <a href="#" className="flex items-center gap-2 sm:mt-5 text-blue-500 hover:text-blue-700 duration-300">
+              Read more
+              <img className="w-4" src={right_arrow} alt="Right Arrow Icon" />
+            </a>
+          </p>
+        </div>
+        <div className="border border-gray-500 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500">
+          <img className="w-10 mb-4" src={ui_icon} alt="Web Design Icon" />
+          <h3 className="text-lg my-4 text-gray-700">UI/UX Design</h3>
+          <p className="text-sm text-gray-600 leading-5">
+            Web development is the process of building programming... 
+            <a href="#" className="flex items-center gap-2 sm:mt-5 text-blue-500 hover:text-blue-700 duration-300">
+              Read more
+              <img className="w-4" src={right_arrow} alt="Right Arrow Icon" />
+            </a>
+          </p>
+        </div>
+        <div className="border border-gray-500 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500">
+          <img className="w-10 mb-4" src={Graphic_icon} alt="Web Design Icon" />
+          <h3 className="text-lg my-4 text-gray-700">Grahpic Design</h3>
           <p className="text-sm text-gray-600 leading-5">
             Web development is the process of building programming... 
             <a href="#" className="flex items-center gap-2 sm:mt-5 text-blue-500 hover:text-blue-700 duration-300">

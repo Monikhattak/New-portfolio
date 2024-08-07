@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Header from './components/Header'
 import About from './components/About'
 import Services from './components/Services'
+import Mywork from './components/Mywork'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
  <Header/>
  <About/>
  <Services/>
+ <Mywork/>
  </>
   )
 }
