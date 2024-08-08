@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-scroll';
-import Logo from '../assets/logo.png';
+
 import arrow_icon from '../assets/arrow-icon.png';
 import moon from '../assets/moon_icon.png';
 import Header_color from '../assets/header-bg-color.png';
@@ -19,7 +19,10 @@ function Navbar() {
         <img className='w-full' src={Header_color} alt="Header Background" />
       </div>
       <nav className='w-full fixed px-5 xl:px-[8%] py-4 flex items-center justify-between z-50'>
-        <img src={Logo} alt="Logo" className='w-28 cursor-pointer mr-14' />
+        <div className='flex items-center gap-4'>
+        
+          <span className='text-2xl font-bold text-gray-900 hidden md:block'>Portfolio</span>
+        </div>
         <ul className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 shadow-sm bg-white bg-opacity-50 cursor-pointer'>
           <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
           <li><Link to="about" smooth={true} duration={500}>About Me</Link></li>
@@ -29,10 +32,12 @@ function Navbar() {
         </ul>
         <div className='flex items-center gap-4'>
           <button><img className='w-6' src={moon} alt="Moon Icon" /></button>
+          <Link to="contact" smooth={true} duration={500}>
           <a href="/contact" className='hidden lg:flex items-center py-2.5 px-10 gap-3 border border-gray-500 rounded-full ml-4'>
             Contact
             <img className='w-3' src={arrow_icon} alt="Arrow Icon" />
           </a>
+          </Link>
           <button className='md:hidden' onClick={toggleSidebar}>
             {isSidebarOpen ? <FaTimes className='w-6 h-6' /> : <FaBars className='w-6 h-6' />}
           </button>
@@ -43,7 +48,7 @@ function Navbar() {
           <li className='py-2 cursor-pointer'><Link to="home" smooth={true} duration={500} onClick={toggleSidebar}>Home</Link></li>
           <li className='py-2 cursor-pointer'><Link to="about" smooth={true} duration={500} onClick={toggleSidebar}>About Me</Link></li>
           <li className='py-2 cursor-pointer'><Link to="services" smooth={true} duration={500} onClick={toggleSidebar}>Services</Link></li>
-          <li className='py-2 '><Link to="work" smooth={true} duration={500} onClick={toggleSidebar}>My Work</Link></li>
+          <li className='py-2'><Link to="work" smooth={true} duration={500} onClick={toggleSidebar}>My Work</Link></li>
           <li className='py-2'><Link to="contact" smooth={true} duration={500} onClick={toggleSidebar}>Contact Me</Link></li>
         </ul>
       </div>
