@@ -4,9 +4,9 @@ import send_icon from '../assets/send-icon.png'
 function Mywork() {
   return (
     <div id="work" className="w-full px-6 lg:px-[12%] py-10 scroll-mt-20">
-      <h4 className="text-center mb-2 text-lg text-gray-700">My portfolio</h4>
-      <h3 className="text-center text-3xl sm:text-5xl font-bold text-gray-900">My latest work</h3>
-      <p className="text-center max-w-2xl mx-auto mt-5 mb-12 text-gray-700">
+      <h4 className="text-center mb-2 text-lg text-gray-700 dark:bg-[#2a004a] dark:text-white">My portfolio</h4>
+      <h3 className="text-center text-3xl sm:text-5xl font-bold text-gray-900  dark:bg-[#2a004a] dark:text-white">My latest work</h3>
+      <p className="text-center max-w-2xl mx-auto mt-5 mb-12 text-gray-700  dark:bg-[#2a004a] dark:text-white">
         Welcome to my web development portfolio. Explore a collection of projects showcasing my expertise 
         in frontend development.
       </p>
@@ -18,8 +18,8 @@ function Mywork() {
           <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 transform -translate-x-1/2 py-3 px-5 
             flex items-center justify-between duration-500 group hover:bottom-7'>
             <div>
-              <h2 className='text-sm font-semibold'>Frontend project</h2>
-              <p className='text-sm text-gray-700'>Web Development</p>
+              <h2 className='text-sm font-semibold  text-black   '>Frontend project</h2>
+              <p className='text-sm text-gray-700  '>Web Development</p>
             </div>
             <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center 
               shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
@@ -32,8 +32,8 @@ function Mywork() {
           <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 transform -translate-x-1/2 py-3 px-5 
             flex items-center justify-between duration-500 group hover:bottom-7'>
             <div>
-              <h2 className='text-sm font-semibold'>Frontend project</h2>
-              <p className='text-sm text-gray-700'>Web Development</p>
+              <h2 className='text-sm font-semibold  text-black  '>Frontend project</h2>
+              <p className='text-sm text-gray-700 '>Web Development</p>
             </div>
             <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center 
               shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
@@ -46,7 +46,7 @@ function Mywork() {
           <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 transform -translate-x-1/2 py-3 px-5 
             flex items-center justify-between duration-500 group hover:bottom-7'>
             <div>
-              <h2 className='text-sm font-semibold'>Frontend project</h2>
+              <h2 className='text-sm font-semibold   text-black  '>Frontend project</h2>
               <p className='text-sm text-gray-700'>Web Development</p>
             </div>
             <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center 
@@ -60,7 +60,7 @@ function Mywork() {
           <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 transform -translate-x-1/2 py-3 px-5 
             flex items-center justify-between duration-500 group hover:bottom-7'>
             <div>
-              <h2 className='text-sm font-semibold'>Frontend project</h2>
+              <h2 className='text-sm font-semibold  text-black '>Frontend project</h2>
               <p className='text-sm text-gray-700'>Web Development</p>
             </div>
             <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center 
@@ -73,7 +73,7 @@ function Mywork() {
 
   
       <div className='flex justify-center mt-10'>
-        <button className='px-8 py-3 rounded-full border border-gray-500 text-black hover:bg-gray-300 transition-all duration-300'>
+        <button className='px-8 py-3 rounded-full border border-gray-500 text-black hover:bg-gray-300 transition-all duration-300  dark:bg-[#2a004a] dark:text-white'>
           Load More
         </button>
       </div>
