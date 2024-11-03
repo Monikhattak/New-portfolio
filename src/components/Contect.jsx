@@ -63,7 +63,7 @@ function Contact() {
         <div className="text-center">
           <button
             type="submit"
-            className="px-8 py-3 bg-black/80 text-white rounded-full hover:bg-black focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="px-8 py-3 bg-black/80 text-white rounded-full hover:bg-black focus:outline-none focus:ring-2 focus:ring-blue-500  dark:bg-[#15202c] dark:text-white hover:dark:bg-[#3c638d]"
           >
             Send Message
           </button>

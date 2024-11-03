@@ -24,7 +24,7 @@ function Header() {
         <a 
           href="mujtaba-resume.pdf" 
           download='Mujtaba Resume'  
-          className='py-3 px-8 border rounded-full border-gray-500 dark:border-gray-100 flex items-center gap-2 bg-white hover:bg-gray-100 dark:bg-gray-800 dark:hover:bg-gray-700 transition-all duration-300 text-gray-900 dark:text-gray-100'
+          className='py-3 px-8 border rounded-full border-gray-500 dark:border-gray-100 flex items-center gap-2 bg-white hover:bg-gray-100 dark:bg-[#462650] dark:hover:bg-[#683777] transition-all duration-300 text-gray-900 dark:text-gray-100'
         >
           My Resume <img src={download_icon} alt="Download" className='w-4' />
         </a>

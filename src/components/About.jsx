@@ -33,21 +33,21 @@ function About() {
             of collaborating with prestigious organizations, contributing to their success and growth.
           </p>
           <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
-            <li className='border-[0.5px] border-gray-400 dark:border-gray-600 rounded-xl p-6 cursor-pointer flex items-start gap-4 hover:bg-[#fef4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]'>
+            <li className='border-[0.5px] border-gray-400 dark:border-gray-600 rounded-xl p-6 cursor-pointer flex items-start gap-4 hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]'>
               <img className='w-7 mt-3' src={code_icon} alt="Code Icon" />
               <div>
                 <h3 className='my-3 font-semibold text-gray-700 dark:text-white'>Languages</h3>
                 <p className='text-gray-700 dark:text-gray-300 text-sm'>HTML, CSS, JavaScript, React JS, Node JS</p>
               </div>
             </li>
-            <li className='border-[0.5px] border-gray-400 dark:border-gray-600 rounded-xl p-6 cursor-pointer flex items-start gap-4 hover:bg-[#fef4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]'>
+            <li className='border-[0.5px] border-gray-400 dark:border-gray-600 rounded-xl p-6 cursor-pointer flex items-start gap-4 hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]'>
               <img className='w-7 mt-3' src={edu_icon} alt="Education Icon" />
               <div>
                 <h3 className='my-3 font-semibold text-gray-700 dark:text-white'>Education</h3>
                 <p className='text-gray-700 dark:text-gray-300 text-sm'>Bachelor of Software Engineering</p>
               </div>
             </li>
-            <li className='border-[0.5px] border-gray-400 dark:border-gray-600 rounded-xl p-6 cursor-pointer flex items-start gap-4 hover:bg-[#fef4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]'>
+            <li className='border-[0.5px] border-gray-400 dark:border-gray-600 rounded-xl p-6 cursor-pointer flex items-start gap-4 hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]'>
               <img className='w-7 mt-3' src={project_icon} alt="Project Icon" />
               <div>
                 <h3 className='my-3 font-semibold text-gray-700 dark:text-white'>Projects</h3>
